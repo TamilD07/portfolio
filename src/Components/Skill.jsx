@@ -42,8 +42,11 @@ const Skills = () => {
         <p>
           I'm skilled in Java, web development, and React.js. My passion is to build robust, scalable web applications and solve challenging problems using my technical skills and creativity.
         </p>
-        <button className="hire-button">Hire Me</button>
-      </div>
+        <button className="hire-button" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
+          Hire Me
+        </button>
+
+       </div>
 
       <div className="skills-right">
         {visibleCards.includes(0) && (

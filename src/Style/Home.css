@@ -134,4 +134,47 @@ body.loaded .in1 {
 }
  
 
- 
+@media screen and (max-width: 667px){
+    .resume-button a {
+        font-size: 0.5rem;
+        height: 4vw;
+    } 
+    .in1 {
+        margin-top: 20vw;
+        margin-left: 20vw;
+        font-size: 1rem;
+        transform: translateY(20%);
+        animation: moveUp 4s ease-in-out forwards;
+    }  
+    
+    .in2 {
+        text-align:justify;
+        margin-top: 40vw;
+    }
+    .image-container {
+        flex: 1;
+        max-width: 180vw;
+        float:left;
+        padding-right: 120vw;
+    }
+    
+    .image-container img {
+        width: 150vw;
+        height: 150vw;
+        margin-top: 100vw;
+        object-fit: cover;
+    }
+    @keyframes moveUp {
+        0% {
+            top: 50%;
+            opacity: 1;
+        }
+        100% {
+            top: 10%;
+            left:-25vw;
+            font-size: 5vw;
+            opacity: 1;
+            line-height: 1.5vw;
+        }
+    }
+}

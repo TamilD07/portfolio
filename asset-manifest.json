@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9296b07.css",
-    "main.js": "/static/js/main.2c287a27.js",
-    "static/media/image.png": "/static/media/image.92b9fa7ce4b74f33b58c.png",
-    "static/media/besant.jpg": "/static/media/besant.ff1a9c7e8ae81b38f901.jpg",
-    "static/media/project1.png": "/static/media/project1.ac8253902fb2ee973ffe.png",
-    "static/media/clg.jpg": "/static/media/clg.5c70054acc4b98282f90.jpg",
-    "static/media/schoolf.gif": "/static/media/schoolf.8bdebf34453d0d4117f7.gif",
-    "static/media/project2.png": "/static/media/project2.82b6661c610930594c19.png",
-    "static/media/project22.png": "/static/media/project22.c35b8d72c50c802f5fd9.png",
-    "static/media/Tamil_Junior web developer_resume.pdf": "/static/media/Tamil_Junior web developer_resume.5a6ffd075dcaf837dd7d.pdf",
-    "static/media/project11.png": "/static/media/project11.c33a3dc9f8beb8985d28.png",
-    "static/media/sclpic.jpeg": "/static/media/sclpic.52fdfe18617c33574c99.jpeg",
-    "static/media/frontend.png": "/static/media/frontend.419b4248f9a130d2fba5.png",
-    "index.html": "/index.html",
-    "main.e9296b07.css.map": "/static/css/main.e9296b07.css.map",
-    "main.2c287a27.js.map": "/static/js/main.2c287a27.js.map"
+    "main.css": "/portfolio/static/css/main.e9296b07.css",
+    "main.js": "/portfolio/static/js/main.e7ab2da3.js",
+    "static/media/image.png": "/portfolio/static/media/image.92b9fa7ce4b74f33b58c.png",
+    "static/media/besant.jpg": "/portfolio/static/media/besant.ff1a9c7e8ae81b38f901.jpg",
+    "static/media/project1.png": "/portfolio/static/media/project1.ac8253902fb2ee973ffe.png",
+    "static/media/clg.jpg": "/portfolio/static/media/clg.5c70054acc4b98282f90.jpg",
+    "static/media/schoolf.gif": "/portfolio/static/media/schoolf.8bdebf34453d0d4117f7.gif",
+    "static/media/project2.png": "/portfolio/static/media/project2.82b6661c610930594c19.png",
+    "static/media/project22.png": "/portfolio/static/media/project22.c35b8d72c50c802f5fd9.png",
+    "static/media/Tamil_Junior web developer_resume.pdf": "/portfolio/static/media/Tamil_Junior web developer_resume.5a6ffd075dcaf837dd7d.pdf",
+    "static/media/project11.png": "/portfolio/static/media/project11.c33a3dc9f8beb8985d28.png",
+    "static/media/sclpic.jpeg": "/portfolio/static/media/sclpic.52fdfe18617c33574c99.jpeg",
+    "static/media/frontend.png": "/portfolio/static/media/frontend.419b4248f9a130d2fba5.png",
+    "index.html": "/portfolio/index.html",
+    "main.e9296b07.css.map": "/portfolio/static/css/main.e9296b07.css.map",
+    "main.e7ab2da3.js.map": "/portfolio/static/js/main.e7ab2da3.js.map"
   },
   "entrypoints": [
     "static/css/main.e9296b07.css",
-    "static/js/main.2c287a27.js"
+    "static/js/main.e7ab2da3.js"
   ]
 }

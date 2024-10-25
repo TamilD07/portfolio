@@ -1,0 +1,168 @@
+ /* Same as before, no changes needed */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1vw;
+    height: 100vh;
+    background-color: #f7f8fa;
+    position: relative;
+}
+
+.portfolio-left {
+    margin: 0 1.5vw;
+    flex: 1.5;
+    padding-right: 0.1vw;
+}
+
+.portfolio-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2vw;
+    max-width: 30vw;
+}
+
+.portfolio-left .highlight {
+    color: #27ae60;
+}
+
+.portfolio-images {
+    display: flex;
+    gap: 1vw;
+    max-width: 45vw;
+}
+
+.portfolio-images img {
+    width: 20vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio-left p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin: 2vw 0.5vw;
+    max-width: 60vh;
+}
+
+.portfolio-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin: 2vw 6.5vw;
+}
+
+.project-card {
+    background-color: white;
+    padding: 1vw;
+    border-radius: 8px;
+    box-shadow: 0 2vw 10vw rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1vw;
+}
+
+.project-card p, .project-card ul {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.project-card ul {
+    list-style: disc;
+    margin-left: 2vw;
+}
+
+.project-card a {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    position: absolute;
+    right: 5vw;
+    bottom: 5vw;
+}
+
+.pagination button {
+     
+    background:#37dd7c ;
+    border: none;
+    border-radius: 2vw;
+    color: #666b6a;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+.pagination button:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 667px){
+    
+.portfolio-left {
+    margin: 0 1.2vw;
+    flex: 1.5;
+    padding-right: 0.1vw;
+}
+
+.portfolio-left h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2vw;
+    max-width: 30vw;
+}
+
+.portfolio-left .highlight {
+    color: #27ae60;
+}
+
+.portfolio-images {
+    display: flex;
+    gap: 1vw;
+    max-width: 40vw;
+}
+
+.portfolio-images img {
+    width: 21vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio-left p {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin: 2vw 0.5vw;
+    max-width: 60vh;
+    text-align: justify;
+    word-spacing:5px;
+}
+
+.portfolio-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin: 2vw 3.5vw;
+}
+.project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1vw;
+}
+
+.project-card p, .project-card ul {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+}

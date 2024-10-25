@@ -1,0 +1,130 @@
+ /* Main Container */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f4f4f4;
+  padding: 5vw;
+  font-family: 'Arial', sans-serif;
+  height: 9.5vw;
+}
+
+.contact-info {
+  width: 45%;
+  background-color: #f0f0f0;
+  padding: 4vw;
+  border-radius: 8px;
+  border-bottom: none;
+  box-shadow: 0 4vw 10vw rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+  font-size: 4.5vw;
+  color: #333;
+  margin-bottom: 2vw;
+}
+
+.contact-info p {
+  font-size: 1.3vw;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2vw;
+}
+
+.contact-social {
+  margin-top: 3vw;
+  max-width: 40vw;
+}
+
+.contact-social p {
+  font-size: 1vw;
+  color: #333;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex; /* Align the icons horizontally */
+  justify-content: space-between; /* Space them out */
+  margin-top: 1vw;
+  padding: -20px;  
+}
+
+.social-icons .icon {
+  font-size: 3vw; /* Increase the size of the icons */
+  color: #555; /* Default color of the icons */
+  margin-right: 1vw; /* Spacing between icons */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth color transition */
+   
+}
+
+.social-icons .icon:hover {
+  color: #000000; /* Color change on hover */
+}
+
+/* Remove the underlines from anchor tags */
+.social-icons a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent .icon */
+}
+
+/* Right section (Form) */
+.contact-form {
+  width: 40%;
+  background-color: #1d1d1d;
+  padding: 3vw;
+  padding-right: 6vw;
+  border-radius: 2vw;
+  color: white;
+  box-shadow: 0 4vw 10vw rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1.5vw;
+  margin-bottom: 2vw;
+  background-color: #2b2b2b;
+  border: none;
+  border-radius: 3vw;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #999;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 9.5vw;
+}
+.contact-form h1{
+  text-align: center;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.newsletter input {
+  margin-right: 10vw;
+}
+
+.submit-btn {
+  background-color: #ff4f00;
+  color: white;
+  border: none;
+  padding: 1.5vw 3vw;
+  font-size: 1rem;
+  border-radius: 4vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #e84500;
+}

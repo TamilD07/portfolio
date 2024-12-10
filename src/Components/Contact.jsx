@@ -80,10 +80,10 @@ function Contact() {
               <a href="https://x.com/Tamil_D07"><BsTwitterX /></a>
             </span>
             <span className="icon">
-              <a href="https://www.instagram.com/tamil_anmutig/"><FaInstagram /></a>
+              <a href="https://www.instagram.com/tamxdee/"><FaInstagram /></a>
             </span>
             <span className="icon">
-              <a href="https://leetcode.com/tamilkumaranmtk/"><SiLeetcode /></a>
+              <a href="https://leetcode.com/u/qSwByb62YC/"><SiLeetcode /></a>
             </span>
           </div>
         </div>

@@ -1,0 +1,137 @@
+ /* Navigation container styling */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 20px; /* Optional padding */
+    position: relative; /* Ensure positioning for child elements */
+}
+
+/* Style for the links */
+.navigation a {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(149, 160, 160);
+    position: relative;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transform and color transitions */
+}
+
+/* Underline animation */
+.navigation a::after {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    content: '';
+    background: #aaa;
+    height: 1px;
+    transition: width 0.6s ease-in-out;
+}
+
+/* Hover effect for the underline */
+.navigation a:hover::after {
+    width: 65%; /* Expands the underline on hover */
+}
+
+/* Hover effects for the links */
+.navigation a:hover {
+    transform: scale(1.2); /* Scales the link */
+    color: #679bdf; /* Changes color on hover */
+}
+
+/* Navigation list styling */
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: max-height 0.3s ease-in-out; /* Smooth transition */
+    overflow: hidden; /* Prevent overflow */
+}
+
+/* List item styling */
+.navigation ul li {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+/* Menu button (hamburger) */
+.menu-btn {
+    display: none; /* Hidden by default */
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Media Query for Small Screens (max-width: 768px) */
+@media screen and (max-width: 728px) {
+    .menu-btn {
+        display: block; /* Show the hamburger button */
+        position: fixed; /* Position fixed */
+        z-index: 20; /* Ensure it's on top */
+    }
+
+    /* Hide the navigation menu by default */
+    .navigation ul {
+        display: none; /* Hide menu by default */
+        flex-direction: column; /* Stack items vertically */
+        position: fixed; /* Fixed position for pop-up */
+        top: 5%; /* Align to top */
+        left: 8%;
+        width: 40%;
+        border: 1px solid white;
+        box-shadow: 10px 5px 20px 5px rgba(132, 139, 243, 0.5);
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 10; /* Ensure it's below the button */
+        max-height: 0; /* Start collapsed */
+    }
+
+    /* Show the menu when it's toggled */
+    .navigation ul.open {
+        display: flex; /* Show the menu */
+        max-height: 300px; /* Control maximum height when open */
+        transition: max-height 0.3s ease-in; /* Smooth transition */
+    }
+
+    /* Style for the menu items in the mobile view */
+    .navigation ul li {
+        margin: 10px 0; /* Add vertical spacing between items */
+    }
+
+    .navigation ul li a {
+        font-size: 18px; /* Adjust font size */
+        padding: 10px 20px;
+        color: white;
+        display: block; /* Make link areas clickable */
+    }
+
+    /* Hover effects for mobile links */
+    .navigation ul li a:hover {
+        color: #679bdf; /* Change color on hover */
+    }
+
+    /* Overlay style */
+    .overlay {
+        position: fixed; /* Fixed position */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent; /* Semi-transparent background */
+        z-index: 5; /* Ensure it's above other content */
+    }
+    .navigation{
+        background-color: none;
+        margin:0;
+        padding: 0px 0px;
+    }
+}
+

@@ -1,8 +1,11 @@
  /* Main Container */
+<<<<<<< HEAD
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     font-family: "Bebas Neue", serif;
 }
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
 .contact-container {
   display: flex;
   justify-content: space-between;
@@ -23,14 +26,20 @@ body{
 }
 
 .contact-info h1 {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   font-size: 4.5vw;
   color: #333;
   margin-bottom: 2vw;
 }
 
 .contact-info p {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   font-size: 1.3vw;
   color: #555;
   line-height: 1.6;
@@ -43,7 +52,10 @@ body{
 }
 
 .contact-social p {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   font-size: 1vw;
   color: #333;
 }
@@ -57,7 +69,10 @@ body{
 }
 
 .social-icons .icon {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   font-size: 3vw; /* Increase the size of the icons */
   color: #555; /* Default color of the icons */
   margin-right: 1vw; /* Spacing between icons */
@@ -72,14 +87,20 @@ body{
 
 /* Remove the underlines from anchor tags */
 .social-icons a {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit the color from the parent .icon */
 }
 
 /* Right section (Form) */
 .contact-form {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   width: 40%;
   background-color: #1d1d1d;
   padding: 3vw;
@@ -91,7 +112,10 @@ body{
 
 .contact-form input,
 .contact-form textarea {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   width: 100%;
   padding: 1.5vw;
   margin-bottom: 2vw;
@@ -126,7 +150,10 @@ body{
 }
 
 .submit-btn {
+<<<<<<< HEAD
   font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
   background-color: #ff4f00;
   color: white;
   border: none;

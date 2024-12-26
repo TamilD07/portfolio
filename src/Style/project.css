@@ -1,10 +1,17 @@
  /* Same as before, no changes needed */
+<<<<<<< HEAD
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body, html {
     margin: 0;
     padding: 0;
     font-family: "Bebas Neue", serif;
+=======
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
 }
 
 .portfolio-container {
@@ -98,7 +105,11 @@ body, html {
 }
 
 .pagination button {
+<<<<<<< HEAD
     font-family: "Bebas Neue", serif; 
+=======
+     
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
     background:#37dd7c ;
     border: none;
     border-radius: 2vw;

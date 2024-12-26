@@ -1,8 +1,11 @@
  /* Navigation container styling */
+<<<<<<< HEAD
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     font-family: "Bebas Neue", serif;
 }
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -14,7 +17,10 @@ body{
 
 /* Style for the links */
 .navigation a {
+<<<<<<< HEAD
     font-family: "Bebas Neue", serif;
+=======
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
     padding: 20px;
     font-size: 20px;
     text-decoration: none;

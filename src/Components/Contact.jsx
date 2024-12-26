@@ -7,6 +7,10 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
+<<<<<<< HEAD
+=======
+import { SiLeetcode } from "react-icons/si";
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
 import emailjs from 'emailjs-com'; // Import EmailJS
 
 function Contact() {
@@ -61,6 +65,7 @@ function Contact() {
           <p>Social Media Seriously Harm Your Mental Health</p>
           <div className="social-icons">
             <span className="icon">
+<<<<<<< HEAD
               <a href="mailto:tamilkumranmtk@gmail.com"target='_blank'><MdEmail /></a>
             </span>
             <span className="icon">
@@ -82,6 +87,31 @@ function Contact() {
               <a href="https://www.instagram.com/tamxdee/" rel='FaInstagram' target='_blank'><FaInstagram /></a>
             </span>
              
+=======
+              <a href="mailto:tamilkumranmtk@gmail.com"><MdEmail /></a>
+            </span>
+            <span className="icon">
+              <a href="tel:+918525929495"><TbPhoneCall /></a>
+            </span>
+            <span className="icon">
+              <a href="https://wa.me/+918525929495"><SiWhatsapp /></a>
+            </span>
+            <span className="icon">
+              <a href="https://github.com/TamilD07"><AiFillGithub /></a>
+            </span>
+            <span className="icon">
+              <a href="https://www.linkedin.com/in/tktamil-kumaranmtk/"><FaLinkedin /></a>
+            </span>
+            <span className="icon">
+              <a href="https://x.com/Tamil_D07"><BsTwitterX /></a>
+            </span>
+            <span className="icon">
+              <a href="https://www.instagram.com/tamxdee/"><FaInstagram /></a>
+            </span>
+            <span className="icon">
+              <a href="https://leetcode.com/u/qSwByb62YC/"><SiLeetcode /></a>
+            </span>
+>>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
           </div>
         </div>
       </div>

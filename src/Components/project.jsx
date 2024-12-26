@@ -22,8 +22,8 @@ const ProjectPortfolio = () => {
         <div className="portfolio-left">
           <h1>MY <span className="highlight">PROJECTS</span></h1>
           <div className="portfolio-images">
-            <img src={projectImg1} alt="University Scheduler 1" />
-            <img src={projectImg2} alt="University Scheduler 2" />
+            <img loading="lazy" src={projectImg1} alt="University Scheduler 1" />
+            <img loading="lazy" src={projectImg2} alt="University Scheduler 2" />
           </div>
           <p>
             Implementing a streamlined timetable organization system using advanced algorithms to efficiently manage teaching schedules, reducing resource expenditure, and enhancing accuracy compared to traditional methods.
@@ -33,8 +33,8 @@ const ProjectPortfolio = () => {
         <div className="portfolio-left">
           <h1>MY <span className="highlight"> PROJECTS</span></h1>
           <div className="portfolio-images">
-            <img src={ projectImg12} alt="Employee Database 1" /> {/* Add your employee management images */}
-            <img src={ projectImg22} alt="Employee Database 2" />
+            <img loading="lazy" src={ projectImg12} alt="Employee Database 1" /> {/* Add your employee management images */}
+            <img loading="lazy" src={ projectImg22} alt="Employee Database 2" />
           </div>
           <p>
             Developed a comprehensive database management system using SQL to streamline employee data management for a medium-sized organization.

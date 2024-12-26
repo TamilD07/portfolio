@@ -1,4 +1,8 @@
  /* Main Container */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: "Bebas Neue", serif;
+}
 .contact-container {
   display: flex;
   justify-content: space-between;
@@ -19,12 +23,14 @@
 }
 
 .contact-info h1 {
+  font-family: "Bebas Neue", serif;
   font-size: 4.5vw;
   color: #333;
   margin-bottom: 2vw;
 }
 
 .contact-info p {
+  font-family: "Bebas Neue", serif;
   font-size: 1.3vw;
   color: #555;
   line-height: 1.6;
@@ -37,6 +43,7 @@
 }
 
 .contact-social p {
+  font-family: "Bebas Neue", serif;
   font-size: 1vw;
   color: #333;
 }
@@ -50,6 +57,7 @@
 }
 
 .social-icons .icon {
+  font-family: "Bebas Neue", serif;
   font-size: 3vw; /* Increase the size of the icons */
   color: #555; /* Default color of the icons */
   margin-right: 1vw; /* Spacing between icons */
@@ -64,12 +72,14 @@
 
 /* Remove the underlines from anchor tags */
 .social-icons a {
+  font-family: "Bebas Neue", serif;
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit the color from the parent .icon */
 }
 
 /* Right section (Form) */
 .contact-form {
+  font-family: "Bebas Neue", serif;
   width: 40%;
   background-color: #1d1d1d;
   padding: 3vw;
@@ -81,6 +91,7 @@
 
 .contact-form input,
 .contact-form textarea {
+  font-family: "Bebas Neue", serif;
   width: 100%;
   padding: 1.5vw;
   margin-bottom: 2vw;
@@ -115,6 +126,7 @@
 }
 
 .submit-btn {
+  font-family: "Bebas Neue", serif;
   background-color: #ff4f00;
   color: white;
   border: none;

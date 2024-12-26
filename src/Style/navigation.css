@@ -1,4 +1,8 @@
  /* Navigation container styling */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: "Bebas Neue", serif;
+}
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -10,6 +14,7 @@
 
 /* Style for the links */
 .navigation a {
+    font-family: "Bebas Neue", serif;
     padding: 20px;
     font-size: 20px;
     text-decoration: none;

@@ -29,7 +29,7 @@ function Home() {
             </div>
           </div>
           <div className="image-container">
-            <img src={image} alt="Profile" className="img-fluid" />  {/* Updated the image path */}
+            <img loading="lazy" src={image} alt="Profile" className="img-fluid" />  {/* Updated the image path */}
           </div>
         </div>
       </div>

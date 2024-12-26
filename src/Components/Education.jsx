@@ -50,7 +50,7 @@ function Education() {
         {/* First Card */}
         {visibleCards.includes(0) && (
           <div className="edu-card flip-animation">
-            <img className="card-img" src={img1} alt="college_picture" />
+            <img loading="lazy" className="card-img" src={img1} alt="college_picture" />
             <div className="card-content">
               <h3>Under-Graduate 2024</h3>
               <h6>BSC.Computer Science</h6>
@@ -64,7 +64,7 @@ function Education() {
         {/* Second Card */}
         {visibleCards.includes(1) && (
           <div className="edu-card flip-animation">
-            <img className="card-img" src={img3} alt="school_picture" />
+            <img loading="lazy" className="card-img" src={img3} alt="school_picture" />
             <div className="card-content">
               <h3>HSC</h3>
               <h6>Tamil Nadu Higher Secondary Certificate Examination</h6>
@@ -78,7 +78,7 @@ function Education() {
         {/* Third Card */}
         {visibleCards.includes(2) && (
           <div className="edu-card flip-animation">
-            <img className="card-img" src={img4} alt="school_picture" />
+            <img loading="lazy" className="card-img" src={img4} alt="school_picture" />
             <div className="card-content">
               <h3>SSLC</h3>
               <h6>Tamil Nadu Higher Secondary Certificate Examination</h6>
@@ -92,7 +92,7 @@ function Education() {
         {/* Fourth Card */}
         {visibleCards.includes(3) && (
           <div className="edu-card flip-animation">
-            <img className="card-img" src={img5} alt="besant_technologies" />
+            <img loading="lazy" className="card-img" src={img5} alt="besant_technologies" />
             <div className="card-content">
               <h3>FULL-STACK JAVA</h3>
               <h6>BESANT TECHNOLOGIES</h6>

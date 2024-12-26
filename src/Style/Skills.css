@@ -1,11 +1,11 @@
 body, html {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
+
     font-family: "Bebas Neue", serif;
-=======
+
     font-family: 'Arial', sans-serif;
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
 }
 
 .skills-container {
@@ -44,10 +44,10 @@ body, html {
 }
 
 .hire-button {
-<<<<<<< HEAD
+
     font-family: "Bebas Neue", serif;
-=======
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
+
     background-color: #28a745;
     color: white;
     padding: 10px 20px;
@@ -134,12 +134,12 @@ body, html {
 
 /* Responsive layout for smaller screens */
 @media screen and (max-width: 667px) {
-<<<<<<< HEAD
+
     *body{
         font-family: "Bebas Neue", serif;
     }
-=======
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
+
     .skills-right {
         flex: 3.5;
         display: grid;

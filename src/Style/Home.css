@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+SC:wght@1..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap'); 
-body, html {
+ 
     
-=======
+
 body, html {
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
     margin: 0;
     padding: 0;
     height: 100%;
@@ -77,23 +77,23 @@ body.loaded .in1 {
 }
 
 .in1 {
-<<<<<<< HEAD
+
     font-family: "Frank Ruhl Libre", serif;
-=======
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
+
     left:-33%;
     transform: translateY(20%);
     animation: moveUp 4s ease-in-out forwards;
 }
 
 .in2 {
-<<<<<<< HEAD
+
     font-family: "Ysabeau SC", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-=======
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
+
     left:3%;
     transform: translateY(-30%);
     opacity: 0;
@@ -135,13 +135,13 @@ body.loaded .in1 {
     position: absolute;
     top: 100%; /* Adjust the position to be visually better */
     left: 50%;
-<<<<<<< HEAD
+
     transform: translateX(-55%); /* Center the button horizontally */
     padding: 1vw 1.5vw;
-=======
+
     transform: translateX(-50%); /* Center the button horizontally */
     padding: 1vw 2vw;
->>>>>>> ebaa28c56721f8f2d586c6946d6760aa2832ecde
+
     background-color: #007bff; /* Button background color */
     color: white !important;
     text-decoration: none; /* Text color */
